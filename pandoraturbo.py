@@ -255,7 +255,7 @@ def parse_accounts(target) -> str:
             
         return f"{Fore.GREEN}Authenticated {len(accounts)} bearers"
             
-    elif ACC_TYPE ("ncgc", "ncb", "gcb") and len(ACCOUNTS) >= 1 and len(BEARERS) >= 1:
+    elif ACC_TYPE in ("ncgc", "ncb", "gcb") and len(ACCOUNTS) >= 1 and len(BEARERS) >= 1:
         print(f"{Fore.YELLOW}[!] {Fore.RED}Any bearer you entered incorrectly will not be checked!!")
         for idx, account in enumerate(ACCOUNTS):
             if len((split_co := account.split(":"))) != 2:
