@@ -1,0 +1,12 @@
+{
+    "account_type": "nc",
+    "bearers": [],
+    "accounts": ["ACCOUNT1@gmail.com:acc",
+                "ACCOUNT2@gmail.com:acc"],
+    "skin_change": true,
+    "skin_variant": "slim",
+    "skin_url": "https://s.namemc.com/i/d1a1e9827d20cd36.png",
+    "proxies": [{"host": "127.0.0.1", "port": 80, "proxy_type": "SOCK5"},
+                {"host": "127.0.0.1", "port": 81, "proxy_type": "SOCK4"},
+                {"host": "127.0.0.1", "port": 82, "proxy_type": "HTTP"}]
+    }
