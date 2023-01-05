@@ -1,8 +1,6 @@
 # Pandora Turbo
 A Turbo sniper using sockets and threading
 
-**This is a link to [my discord](discord.gg/3vQbqzzFYS) for _help_ with python hw**
-
 This turbo will likely be entirely inefficent unless you have 50+ accounts
 
 ## ! IMPORT
